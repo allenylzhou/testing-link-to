@@ -18,6 +18,6 @@ module('Integration | Component | some-input', function(hooks) {
       {{/link-to}}
     `);
 
-    assert.dom('.my-link').hasAttribute('href', '');
+    assert.dom('.my-link').hasAttribute('href', '/dashboard');
   });
 });
